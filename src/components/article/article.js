@@ -110,13 +110,12 @@ articleWrapper.appendChild(articleParaTwo);
 articleWrapper.appendChild(articleParaThree);
 articleWrapper.appendChild(expandButton);
 
-
-articleTitle.textContent = articleObj.title;
-articleDate.textContent = articleObj.date;
-articleParaOne.textContent = articleObj.firstParagraph;
-articleParaTwo.textContent = articleObj.secondParagraph;
-articleParaThree.textContent = articleObj.thirdParagraph;
-expandButton.textContent = ' +'
+// articleTitle.textContent = articleObj.title;
+// articleDate.textContent = articleObj.date;
+// articleParaOne.textContent = articleObj.firstParagraph;
+// articleParaTwo.textContent = articleObj.secondParagraph;
+// articleParaThree.textContent = articleObj.thirdParagraph;
+// expandButton.textContent = ' +'
 expandButton.addEventListener('click', () =>{
   articleWrapper.classList.toggle('article-open');
 })
